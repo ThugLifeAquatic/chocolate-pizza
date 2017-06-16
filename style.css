@@ -1,3 +1,64 @@
 * {
-  
+  border: 1px solid black
+}
+
+body {
+  width: 80%;
+  margin: auto;
+}
+
+
+header {
+  width: 100%;
+  display: block;
+  border-bottom: 5px solid gray;
+}
+
+
+.logo {
+  width: 50%;
+  display: inline-block;
+}
+
+.logo img {
+  float: left;
+}
+
+.logo h2 {
+  display: block;
+}
+
+.logo p {
+  font-size: 8px;
+  display: block;
+
+}
+
+#logo {
+  float: left;
+}
+
+header ul {
+  list-style: none;
+  display: inline;
+  float: right;
+
+}
+
+header ul li {
+  display: inline-block;
+
+}
+
+.main h2 {
+  font-size: 8px;
+}
+
+.hero {
+  width: 100%;
+
+}
+
+.paragraph p {
+  text-indent: 30px;
 }
