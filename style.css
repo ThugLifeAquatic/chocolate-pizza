@@ -1,19 +1,13 @@
-* {
-  border: 1px solid black
-}
-
 body {
   width: 80%;
   margin: auto;
 }
-
 
 header {
   width: 100%;
   display: block;
   border-bottom: 5px solid gray;
 }
-
 
 .logo {
   width: 50%;
@@ -31,7 +25,6 @@ header {
 .logo p {
   font-size: 8px;
   display: block;
-
 }
 
 #logo {
@@ -42,23 +35,55 @@ header ul {
   list-style: none;
   display: inline;
   float: right;
-
 }
 
 header ul li {
   display: inline-block;
+}
 
+.title {
+  margin-top: 4%;
+}
+
+.main h1 {
+  font-size: 50px;
 }
 
 .main h2 {
-  font-size: 8px;
+  font-size: 15px;
+  display: inline;
 }
 
 .hero {
-  width: 100%;
-
+  margin-top: 3%;
+  margin-bottom: 2%;
 }
 
+.hero img {
+  width: 100%;
+}
+
+.main #print {
+  float: right;
+}
 .paragraph p {
+  margin-bottom: 2%;
   text-indent: 30px;
 }
+.ingredients {
+  width:100%;
+  display: block;
+  margin:5%;
+}
+ .listleft {
+   margin-left: 7%;
+   width: 30%;
+   /float: left;
+   display: inline-block;
+ }
+ .listright {
+   margin-right: 7%;
+   width: 30%;
+   float: right;
+   display: inline-block;
+ }
